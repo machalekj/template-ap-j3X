@@ -1,0 +1,353 @@
+/*MOD_BIS TABS*/
+#mod_bis_tabs  div.content{
+  background-color: #ffddb5;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding: 3px;
+}
+
+#mod_bis_tabs  div.less_tabs{
+  border-top-right-radius: 6px;
+}
+
+#mod_bis_tabs ul.tabs {
+  font-size: 0.8em;
+  background-color: #fff;
+}
+
+#mod_bis_tabs ul.tabs li {
+  padding: 3px 2px 2px 2px;
+  margin: 0;
+  background-color: #930a1b;
+  overflow: hidden;
+  color: #fff;
+  font-weight: bold;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+#mod_bis_tabs ul.tabs li.mod_bis_viks{
+  width: 76px;
+}
+
+#mod_bis_tabs ul.tabs li.mod_bis_camps,#mod_bis_tabs ul.tabs li.mod_bis_ekostan{
+  width: 52px;
+}
+
+#mod_bis_tabs ul.tabs li.mod_bis_clubs{
+  width: 46px;
+}
+
+#mod_bis_tabs ul.tabs li.mod_bis_clubs:hover,#mod_bis_tabs ul.tabs li.mod_bis_camps:hover,#mod_bis_tabs ul.tabs li.mod_bis_viks:hover, #mod_bis_tabs ul.tabs li.mod_bis_ekostan:hover {
+  background: #f5d5b0;
+  color: #333;
+}
+
+#mod_bis_tabs ul.tabs li.tab.active {
+  background: #ffddb5;
+  color: #000;
+}
+
+#mod_bis_tabs .plg_bis {
+  font-size: 0.9em;
+}
+
+#mod_bis_tabs .plg_bis ul{
+  margin: 0;
+  padding: 0;
+}
+
+#mod_bis_tabs .plg_bis ul li{
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+/*Facebook*/
+.facebook_badge {
+  text-align: center;
+}
+
+/*Slideshow*/
+#slideshow-mainpage  {
+  width:980px;
+  height:150px;
+  position:relative;
+}
+
+#slideshow-podpor  {
+  width:750px;
+  height:150px;
+  position:relative;
+}
+
+#slideshow-podpor img {
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+}
+
+#slideshow-mainpage img {
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 1px 2px #321;
+  border-top: 1px solid #930a1b;
+}
+
+div.moduletable_facebook {
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 1px #999;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+div.rss-feed {
+  text-align: right;
+  float: right;
+  border-radius: 3px;
+  padding: 1px;
+  box-shadow: 0 0 1px #666;
+  font-size: 12px;
+}
+
+div.rss-feed img {
+  vertical-align:text-bottom;
+}
+
+div.rss-feed a {
+  text-decoration: none;
+}
+
+/* Joomla specific elemets */
+
+.tip {
+  background: #eee;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 1px #666;
+  border-radius: 4px;
+  text-align: left;
+  padding: 3px;
+}
+
+.tip-title{
+  font-weight: bold;
+}
+
+/* com_bis */
+
+#inside_middle_col div.com_bis_list {
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #ffddb5;
+}
+
+#inside_middle_col div.plg_bis div.akce {
+  border: 2px solid #930a1b;
+  border-radius: 8px;
+  margin: 7px 0 1.5em 0;
+  background-color: #fff;
+}
+
+#inside_middle_col div.plg_bis div.akce h3 {
+  margin: -8px -2px 0px -2px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  padding: 7px;
+  background: #930a1b;
+  color: #f0bf72;
+  position: relative;
+  font-weight: bold;
+}
+
+#inside_middle_col div.plg_bis div.akce h3 a {
+  color: #f0bf72;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+#inside_middle_col div.plg_bis div.akce h3 a:hover, #inside_middle_col div.plg_bis div.akce h3:hover {
+  text-decoration: underline;
+  background: #9f0f1f;
+}
+
+#inside_middle_col div.plg_bis div.akce h3 img {
+  position: absolute;
+  right: 10px;
+  top: -8px;
+}
+
+#inside_middle_col div.plg_bis div.akce p.datum {
+  padding: 2px 4px 1px 4px;
+  margin: 0 0 5px 0;
+  color: #000;
+  background: #ff9131;
+  font-weight: bold;
+  font-size: 0.82em;
+}
+
+#inside_middle_col div.plg_bis div.akce div.seznam_text {
+  padding: 8px;
+}
+
+hr.cleaner {
+  clear: both;
+  visibility: hidden;
+  margin: -1px 0;
+  padding: 0;
+  color: transparent;
+}
+
+#inside_middle_col div.plg_bis div.akce table.tabulka_detail {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 100%;
+  font-size: 0.85em;
+  background: transparent;
+}
+
+#inside_middle_col div.plg_bis div.akce img.bis_img {
+  border-radius: 6px;
+  margin: 8px 12px 8px 8px;
+  float: right;
+}
+
+#inside_middle_col div.plg_bis div.akce table.tabulka_detail th {
+  margin: 0;
+  padding: 5px 5px 5px 8px;
+  background: #ff9131;
+  text-align: right;
+  font-weight: bold;
+  width: 180px;
+}
+
+#inside_middle_col div.plg_bis div.akce table.tabulka_detail td {
+  margin: 0;
+  padding: 5px 8px 5px 5px;
+  background: #ffddb5;
+}
+
+#inside_middle_col div.plg_bis div.akce table.tabulka_detail tr:last-child td{
+  border-bottom-right-radius: 6px;
+}
+
+#inside_middle_col div.plg_bis div.akce table.tabulka_detail tr:last-child th{
+  border-bottom-left-radius: 6px;
+}
+
+#inside_middle_col div.com_bis_backlink_bottom {
+  text-align: right;
+  padding: 6px;
+  margin-bottom: 5px;
+}
+
+#inside_middle_col div.com_bis_backlink_bottom a {
+  border-radius: 6px;
+  padding: 5px;
+  background: #930a1b;
+  color: #f0bf72;
+  font-size: 0.9em;
+  box-shadow: 1px 1px 1px #666;
+}
+
+/*COM BIS tabs*/
+#inside_middle_col #com_bis_tabMenu {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#inside_middle_col #com_bis_tabMenu tr td {
+  padding: 0;
+  margin: 0;
+}
+
+#inside_middle_col #com_bis_tabMenu tr td a {
+  display: block;
+  text-align: center;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: #930a1b;
+  color: #fff;
+  padding: 4px;
+  font-size: 0.9em;
+}
+
+#inside_middle_col #com_bis_tabMenu tr td.active a {
+  background-color: #ffddb5;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#inside_middle_col #com_bis_tabMenu tr td a:hover {
+  background-color: #930a1b;
+  color: #000;
+}
+
+#inside_middle_col p.mod_bis_filter_is_used {
+  font-style: italic;
+  text-align: center;
+  color: #666;
+  border-bottom: 1px solid #999;
+  margin-bottom: 16px;
+}
+
+/* MOD BIS FILTER */
+div.mod_bis_filter {
+  padding: 6px;
+  border-radius: 6px;
+  background-color: #ffddb5;
+  font-size: 94%;
+}
+
+div.mod_bis_filter #filter-by-date, div.mod_bis_filter #filter-by-date-to {
+  width: 70px;
+}
+
+div.mod_bis_filter select {
+  width: 155px;
+}
+
+div.mod_bis_filter #mod-bis-filter-submit {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+div.mod_bis_filter #mod-bis-filter-reset {
+  color: #444;
+}
+
+#Forms
+body div.alert-error {
+    background: #fdc;
+}
+
+body div.alert-error h4 {
+    color: #f00;
+}
+
+body div.alert-message {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  background: #eee; 
+}
+
+body div.alert-message a.close {
+  visibility: hidden;
+  display: none;
+}

@@ -1,0 +1,77 @@
+#left_panel_navigation ul {
+  margin-left: 0;
+}
+
+#left_panel_navigation ul li ul{
+  margin-left: 0;
+}
+
+#left_panel_navigation ul li {
+  list-style: none;
+}
+
+#left_panel_navigation ul li ul li{
+  list-style: none;
+  border-left: 7px solid #930a1b;
+}
+
+#left_panel_navigation ul li ul li ul li{
+  list-style: none;
+  border-left: 7px solid #730a0b;
+}
+
+#left_panel_navigation ul li a {
+  display: block;
+  color:#fff;
+  background: #930a1b;
+  padding: 4px;
+  margin: 0 0 1px 0;
+  text-decoration: none;
+}
+
+#left_panel_navigation ul li:first-child > a {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#left_panel_navigation ul li.parent ul li:first-child > a {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+#left_panel_navigation ul li:last-child > a {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#left_panel_navigation ul li.parent ul li:last-child > a {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#left_panel_navigation ul li.deeper:last-child > a {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#left_panel_navigation ul li a:hover {
+  background: #9f0f1f;
+}
+
+
+#left_panel_navigation ul li ul li a {
+  color:#000;
+  background: #ffddb5;
+}
+
+#left_panel_navigation ul li ul li a:hover {
+  background: #f5d5b0;
+}
+
+#left_panel_navigation ul li.current a {
+  font-weight: bold;
+}
+
+#left_panel_navigation ul li.current ul li a {
+  font-weight: normal;
+}

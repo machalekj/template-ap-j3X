@@ -1,0 +1,70 @@
+ul  li{
+  list-style: disc;
+}
+
+ul li ul li{
+  list-style: circle;
+}
+
+ul,ol {
+  padding:	0em;
+  margin-left:1.3em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+fieldset {
+  padding: 0.5em;
+  border: 0px;
+}
+
+img a{
+  border: 0;
+}
+
+a img {
+  border: 0px;
+}
+
+a {
+  color: #3a607d;
+}
+
+a:hover	{
+  color: #5a809d;
+}
+
+p {
+  text-align: justify;
+}
+
+h1,h2,h3,h4,h5,h6,blockquote,label,ol,dl,fieldset,address, p {
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.15em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1.05em;
+}
+
+h6 {
+  font-size: 1em;
+}

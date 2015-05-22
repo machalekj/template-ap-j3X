@@ -1,0 +1,128 @@
+html, body {
+  height: 100%;
+  text-align: center;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom: 120px;
+  margin: 0 auto;
+  width: 1005px;
+  text-align: left;
+  clear:both;
+}
+
+#footer {
+  position: relative;
+  height: 130px;
+  margin: -120px auto;
+  padding: 0;
+  text-align:center;
+  clear:both;
+}
+
+#page_header {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#header_navigation {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  z-index: 20;
+}
+
+#search {
+  position: absolute;
+  right: 10px;
+  top: 38px;
+  z-index: 20;
+}
+
+#site_name {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  z-index: 20;
+  cursor: pointer;
+}
+
+#header_bck {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}
+
+body.main #header_bck {
+  bottom: -10px;
+}
+
+body.normal #header_bck {
+  bottom: 0;
+}
+
+/**Columns**/
+
+.main-content {
+  width: 1005px;
+  position: relative;
+}
+
+.left-column {
+  width: 225px;
+  float: left;
+}
+
+.right-column {
+  width: 780px;
+  float: right;
+}
+
+.right-column-left {
+  width: 570px;
+  float: left;
+}
+
+.right-column-right {
+  width: 200px;
+  float: right;
+}
+
+.right-column-left-full {
+  width: 775px;
+  float: left;
+}
+
+.right-column-right-empty {
+  width: 0px;
+  float: right;
+}
+
+#main.main #homepage_top_panel {
+  width: 1005px;
+  overflow: hidden;
+}
+
+#inside_footer {
+  width: 1003px;
+  margin: auto;
+  padding: 0;
+  text-align: left;
+}
+
+body.main #inside_page_header {
+  height: 89px;
+}
+
+body.normal #inside_page_header {
+  height: 99px;
+}
+
+.main-content,#left_panel_promo {
+  margin: 10px 0 0 0;
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*Reset default styles*/
+@import url("style-reset.css");
+/*General HTML style*/
+@import url("general-html.css");
+/*Page layout styles*/
+@import url("page-layout.css");
+/*Page style*/
+@import url("page-style.css");
+/*Left menu styles*/
+@import url("left-menu.css");
+/*Main content styles*/
+@import url("main-content.css");
+/*Custom modules*/
+@import url("custom-modules.css");

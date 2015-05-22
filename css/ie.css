@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* Style overrides for IE */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://themes.googleusercontent.com/static/fonts/opensans/v6/4fu8RBPDDCYpod03lr_bYQ.eot);
+  src: local('Open Sans'), local('OpenSans'), url(font/OpenSans.eot) format('embedded-opentype'), url(font/OpenSans.woff) format('woff');
+}
