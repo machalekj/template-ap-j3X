@@ -8,8 +8,8 @@
     <authorUrl>https://github.com/zeten30</authorUrl>
     <copyright>None</copyright>
     <license>GNU General Public License version 2 or later</license>
-    <version>1.3.0</version>
-    <description>Šablona webu Prázdniny s Brontosaurem</description>
+    <version>1.3.2</version>
+    <description>Šablona webu Akce příroda</description>
     <files> 
         <folder>css</folder>
         <folder>html</folder>
